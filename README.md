@@ -1,3 +1,3 @@
-# Heicoders Currency Converter
+# Stock Dashboard CapStone
 
-Uses React, Vite, ExchangeRate-API
+Uses React, Vite
