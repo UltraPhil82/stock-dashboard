@@ -14,7 +14,7 @@ function StockForm () {
 
     /* Get current price of stock */
     useEffect(() => {
-        //fetch(`https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${sym}&apikey=02RU82IICSHJZ15L`)
+        
         fetch('https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo')
           .then(response => response.json())
           .then(data => {
