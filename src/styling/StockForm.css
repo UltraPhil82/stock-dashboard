@@ -1,0 +1,15 @@
+input {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+div.stock-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center; 
+    padding: 20px;
+}
